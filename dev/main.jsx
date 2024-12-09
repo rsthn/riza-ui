@@ -7,14 +7,16 @@ import "../css/xui.css";
 import "../css/dialog.css";
 import "../css/btn-strip.css";
 import "../css/btn.css";
+import "../css/form.css";
 
 const App = () =>
-<r-panel data-root="true" class="p-4" onCreated={ () => queueMicrotask(() => Router.refresh()) }>
+<r-panel data-root="true" class="p-4 s-fill" onCreated={ () => queueMicrotask(() => Router.refresh()) }>
 
     <button class="btn" onClick={ () => window.document.documentElement.classList.toggle('light-mode') }>Toggle Light/Dark</button>
     <button class="btn" onClick={ (ev) => ev.currentTarget.querySelectorParent('[data-root]').dialog.toggleVisibility() }>Toggle Dialog</button>
+
     <hr/>
-    <p>Buttons</p>
+    <p><b>Buttons</b></p>
     <div class="mb-1">
         <button class="btn">Default</button>
         <button class="btn outline">Default</button>
@@ -64,17 +66,52 @@ const App = () =>
         <button class="btn dark small outline">Default</button>
     </div>
 
-    <br/>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    </p>
+    <hr/>
+    <p><b>Form Elements</b></p>
+
+    <div class="f-row g-2">
+        <div class="s-3">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" />
+            </div>
+
+            <div class="form-group">
+                <label>Description</label>
+                <textarea></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Select Country</label>
+                <select>
+                    <option>USA</option>
+                    <option>Honduras</option>
+                    <option>Japan</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="s-3">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" />
+            </div>
+
+            <div class="form-group">
+                <label>Description</label>
+                <textarea></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Select Country</label>
+                <select>
+                    <option>USA</option>
+                    <option>Honduras</option>
+                    <option>Japan</option>
+                </select>
+            </div>
+        </div>
+    </div>
 
     <r-panel class="dialog center" data-ref="dialog">
         <div class="title text-center py-3 fs-1 fw-600">
