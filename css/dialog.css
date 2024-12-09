@@ -1,0 +1,83 @@
+/* Structure */
+.dialog {
+    display: flex; flex-direction: column; overflow: hidden; box-sizing: border-box;
+    --margin: 0.5rem;
+}
+
+.dialog > .title {
+    display: flex; margin: 0;
+}
+
+.dialog > .title > b {
+    font-weight: inherit; flex: 1;
+}
+
+.dialog > .title > span > * {
+    display: inline-block; padding: 0 0.25rem; border-radius: 0.4rem; font-style: normal;
+    transition: all var(--duration) ease;
+}
+
+.dialog > .title > span > *:hover {
+    cursor: pointer; transform: scale(1.25);
+    transition: all var(--duration) ease;
+}
+
+.dialog > div.content {
+    overflow-y: auto; scrollbar-width: thin; flex: 1;
+}
+
+/* ** */
+.dialog.left {
+    position: fixed; left: 0; top: 0; border-radius: 0 1rem 1rem 0;
+    margin: var(--margin) 0; height: calc(100vh - 2*var(--margin));
+}
+
+.dialog.right {
+    position: fixed; right: 0; top: 0; border-radius: 1rem 0 0 1rem;
+    margin: var(--margin) 0; height: calc(100vh - 2*var(--margin));
+}
+
+.dialog.top {
+    position: fixed; top: 0; border-radius: 0 0 1rem 1rem;
+    width: max-content; left: 50%; transform: translateX(-50%); max-height: 80vh;
+}
+
+.dialog.bottom {
+    position: fixed; bottom: 0; border-radius: 1rem 1rem 0 0;
+    width: max-content; left: 50%; transform: translateX(-50%); max-height: 80vh;
+}
+
+.dialog.center {
+    position: fixed; left: 50%; top: 50%; border-radius: 1rem;
+    width: max-content; transform: translateX(-50%) translateY(-100%);
+}
+
+/* Anims */
+.dialog {
+    transition: all calc(1.5*var(--duration)) cubic-bezier(0.175, 0.885, 0.32, 1.575);
+    opacity: 1;
+}
+
+.dialog.is-inactive {
+    transition: all calc(1.5*var(--duration)) cubic-bezier(0.645, 0.045, 0.355, 1);
+    opacity: 0; pointer-events: none;
+}
+
+.dialog.left.is-inactive { transform: translateX(-100%); }
+.dialog.right.is-inactive { transform: translateX(100%); }
+.dialog.top.is-inactive { transform: translateX(-50%) translateY(-100%); }
+.dialog.bottom.is-inactive { transform: translateX(-50%) translateY(100%); }
+.dialog.center.is-inactive { transform: translateX(-50%) translateY(-130%) scale(0.5); }
+
+/* Theme */
+.dialog.center, .dialog.left, .dialog.right, .dialog.top, .dialog.bottom {
+    box-shadow: 0 0 2.5rem rgba(0,0,0,0.5);
+}
+
+.dialog > .title {
+    background: light-dark(#f7f7f7,#1a1920); color: light-dark(#000,#fff);
+}
+
+.dialog > div {
+    background: light-dark(#f7f7f7,#1a1920); color: light-dark(#000,#ccc);
+}

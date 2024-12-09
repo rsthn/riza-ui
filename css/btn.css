@@ -1,0 +1,176 @@
+/* Structure */
+.btn {
+    display: inline-block; text-align: center; border: none; background: none;
+    padding: 0.4rem 1rem; border-radius: 0.25rem; font-size: 0.9rem;
+    transition: all var(--duration) ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: all var(--duration) ease;
+}
+
+.btn.small {
+    padding: 0.3rem 0.5rem; font-size: 0.8rem;
+}
+
+/* Theme */
+.btn {
+    background: light-dark(#e0e0e0,#111);
+    color: light-dark(#222,#eee);
+}
+.btn:hover {
+    background: light-dark(#ccc,#000);
+    color: light-dark(#000,#fff);
+}
+
+.btn.outline {
+    background: transparent;
+    color: light-dark(#222,#ddd);
+    border: 1px solid light-dark(#777,#444);
+}
+.btn.outline:hover {
+    background: light-dark(#e0e0e0,#111);
+    color: light-dark(#000,#fff);
+    border: 1px solid light-dark(#e0e0e0,#111);
+}
+
+/* ** */
+.btn.primary {
+    background: light-dark(#6c28be,#6c28be);
+    color: light-dark(#fff,#fff);
+}
+.btn.primary:hover {
+    background: light-dark(#3c008e,#4c089e);
+}
+
+.btn.primary.outline {
+    background: transparent;
+    color: light-dark(#6c28be,#b980ff);
+    border: 1px solid light-dark(#6c28be,#7641b5);
+}
+.btn.primary.outline:hover {
+    background: light-dark(#6c28be,#6c28be);
+    color: light-dark(#fff,#fff);
+    border: 1px solid light-dark(#6c28be,#6c28be);
+}
+
+/* ** */
+.btn.secondary {
+    background: light-dark(#be28ac,#be28ac);
+    color: light-dark(#fff,#fff);
+}
+.btn.secondary:hover {
+    background: light-dark(#7b1a70,#7b1a70);
+}
+
+.btn.secondary.outline {
+    background: transparent;
+    color: light-dark(#be28ac,#f665e5);
+    border: 1px solid light-dark(#be28ac,#e344d0);
+}
+.btn.secondary.outline:hover {
+    background: light-dark(#be28ac,#be28ac);
+    color: light-dark(#fff,#fff);
+    border: 1px solid light-dark(#be28ac,#be28ac);
+}
+
+/* ** */
+.btn.success {
+    background: light-dark(#16b72e,#16b72e);
+    color: light-dark(#fff,#fff);
+}
+.btn.success:hover {
+    background: light-dark(#066d15,#066d15);
+}
+
+.btn.success.outline {
+    background: transparent;
+    color: light-dark(#108c23,#32c748);
+    border: 1px solid light-dark(#108c23,#32c748);
+}
+.btn.success.outline:hover {
+    background: light-dark(#16b72e,#16b72e);
+    color: light-dark(#fff,#fff);
+    border: 1px solid light-dark(#16b72e,#16b72e);
+}
+
+/* ** */
+.btn.danger {
+    background: light-dark(#be2830,#93132f);
+    color: light-dark(#fff,#fff);
+}
+.btn.danger:hover {
+    background: light-dark(#93132f,#620a1d);
+}
+
+.btn.danger.outline {
+    background: transparent;
+    color: light-dark(#be2830,#f53f66);
+    border: 1px solid light-dark(#be2830,#f53f66);
+}
+.btn.danger.outline:hover {
+    background: light-dark(#be2830,#93132f);
+    color: light-dark(#fff,#fff);
+    border: 1px solid light-dark(#be2830,#93132f);
+}
+
+/* ** */
+.btn.warn {
+    background: light-dark(#cc4e20,#cc4e20);
+    color: light-dark(#fff,#fff);
+}
+.btn.warn:hover {
+    background: light-dark(#8c2e0c,#8f3312);
+}
+
+.btn.warn.outline {
+    background: transparent;
+    color: light-dark(#ce7714,#f56b39);
+    border: 1px solid light-dark(#ce7714,#cc4e20);
+}
+.btn.warn.outline:hover {
+    background: light-dark(#cc4e20,#cc4e20);
+    color: light-dark(#fff,#fff);
+    border: 1px solid light-dark(#cc4e20,#cc4e20);
+}
+
+/* ** */
+.btn.info {
+    background: light-dark(#16caca,#13adad);
+    color: light-dark(#fff,#fff);
+}
+.btn.info:hover {
+    background: light-dark(#048888,#048888);
+}
+
+.btn.info.outline {
+    background: transparent;
+    color: light-dark(#0f8b8b,#16caca);
+    border: 1px solid light-dark(#109191,#16caca);
+}
+.btn.info.outline:hover {
+    background: light-dark(#16caca,#13adad);
+    color: light-dark(#fff,#fff);
+    border: 1px solid light-dark(#16caca,#13adad);
+}
+
+/* ** */
+.btn.dark {
+    background: light-dark(#333,#e7e7e7);
+    color: light-dark(#fff,#000);
+}
+.btn.dark:hover {
+    background: light-dark(#111,#fff);
+}
+
+.btn.dark.outline {
+    background: transparent;
+    color: light-dark(#000,#eee);
+    border: 1px solid light-dark(#333,#ddd);
+}
+.btn.dark.outline:hover {
+    background: light-dark(#333,#e7e7e7);
+    color: light-dark(#fff,#000);
+    border: 1px solid light-dark(#333,#e7e7e7);
+}

@@ -1,0 +1,56 @@
+
+(when (lt? (len (args)) 3)
+    (echo "Usage: compile <input> <output>")
+    (stop)
+)
+
+(when-not (path:exists (args.1))
+    (echo "Input file does not exist: " (args.1))
+    (stop)
+)
+
+(set lines (split "\n" (file:read (args.1))))
+(set classes [])
+(set breakpoints_down [])
+(set breakpoints_up [])
+
+(for line (lines)
+    (when-not (re:matches "/__/" (line))
+        (if (re:matches "/%%%/" (line))
+            (array:push (breakpoints_down) (line#))
+        elif (re:matches "/%%/" (line))
+            (array:push (breakpoints_up) (line#))
+        )
+        (continue)
+    )
+
+    (array:push (classes) (concat "    " (line)))
+    (set lines.(line#) (str:replace "__" "" (line)))
+    (set lines.(line#) "")
+)
+
+(for i (breakpoints_up)
+    (set suffix (concat "-" (substr 2 (trim (lines.(i))))))
+    (when (eq? (suffix) "-") (set suffix ""))
+
+    (set out [])
+    (for j (classes)
+        (array:push (out) (str:replace "__" (suffix) (j)))
+    )
+    (set lines.(i) (join "\n" (out)))
+)
+
+(for i (breakpoints_down)
+    (set suffix (concat "-" (substr 3 (trim (lines.(i))))))
+    (when (eq? (suffix) "-") (set suffix ""))
+    (append suffix "-d")
+
+    (set out [])
+    (for j (classes)
+        (array:push (out) (str:replace "__" (suffix) (j)))
+    )
+    (set lines.(i) (join "\n" (out)))
+)
+
+(file:write (args.2) (join "\n" (lines)))
+(print "✔ Done")

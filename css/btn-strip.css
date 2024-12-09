@@ -1,0 +1,14 @@
+/* Structure */
+.btn-strip {
+    display: flex; gap: 0;
+}
+
+.btn-strip > .btn {
+    display: inline-block; text-align: center; flex: 1;
+    padding: 0.7rem 0; border: none !important;
+}
+
+/* Theme */
+.btn-strip {
+    border-top: 1px solid rgba(0,0,0,0.125);
+}

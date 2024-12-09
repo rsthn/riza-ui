@@ -1,0 +1,60 @@
+{
+    "name": "xui",
+    "version": "1.0.0",
+    "description": "XUI Library",
+    "type": "module",
+    "main": "./dist/xui.m.js",
+    "module": "./dist/xui.m.js",
+    "global": "./dist/xui.js",
+    "types": "./dist/xui.d.ts",
+    "bin": {
+        "xui": "bin/cli.js"
+    },
+    "scripts": {
+        "test": "echo Ok",
+        "changes": "rose :changes",
+        "build-css": "rose css/compile.fn css/xui.src.css css/xui.css",
+        "build:global": "parcel build --target global",
+        "build:module": "parcel build --target module",
+        "build": "shx rm -rf .parcel-cache && pnpm build-css && pnpm build:module && pnpm build:global",
+        "dev": "parcel serve dev/index.html"
+    },
+    "targets": {
+        "module": {
+            "source": "./src/main.js",
+            "optimize": true,
+            "isLibrary": true
+        },
+        "global": {
+            "source": "./src/_main.js",
+            "optimize": true,
+            "includeNodeModules": true,
+            "isLibrary": true
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rsthn/xui.git"
+    },
+    "author": "RedStar Technologies",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rsthn/xui/issues"
+    },
+    "homepage": "https://github.com/rsthn/xui#readme",
+    "files": [
+        "dist/",
+        "bin/",
+        "LICENSE",
+        "README.md"
+    ],
+    "dependencies": {
+        "babel-plugin-riza": "^2.0.9",
+        "riza": "^3.0.32"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.0",
+        "parcel": "^2.12.0",
+        "shx": "^0.3.4"
+    }
+}
