@@ -4,29 +4,22 @@
 }
 
 .form-group label {
-    display: block; font-size: 0.9rem; margin-bottom: 0.1rem;
+    display: block; font-size: 0.9rem; margin-bottom: 0.1rem; font-weight: 200;
+    color: light-dark(#444,#ddd);
 }
 
 .form-group input, .form-group textarea, .form-group select {
-    transition: all var(--duration) ease;
-}
-
-.form-group input, .form-group textarea, .form-group select {
-    display: inline-block; width: 100%; box-sizing: border-box;
-    font-size: 0.9em; border-radius: 0.2rem; padding: 0.6em 0.6em; outline: none;
-    transition: all var(--duration) ease;
+    display: inline-block; width: 100%; box-sizing: border-box; font-weight: 400;
+    font-size: 0.9em; border-radius: 0.2rem; padding: 0.3em 0.6em; outline: none; resize: none;
 }
 
 /* Theme */
 .form-group input, .form-group textarea, .form-group select {
-    background: light-dark(#fff,#171717); border: 1px solid light-dark(#999,#222);
-    color: light-dark(#333,#ddd);
-    box-shadow: inset 0 0.2em 0.5em -0.4em light-dark(rgba(0,0,0,0.7),#000),
-                      0 0.2em 0.5em -0.4em light-dark(rgba(0,0,0,0.7),#000);
+    background: light-dark(#fff,#15141a); border: 1px solid light-dark(#d0d0d0,#292732);
+    color: light-dark(#222,#ddd);
 }
 
 .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
-    border: 1px solid light-dark(#555,#555);
-    color: light-dark(#222,#fff);
-    outline: 4px solid light-dark(rgba(0,0,0,0.08),rgba(255,255,255,0.03));
+    border: 1px solid light-dark(#b7b7b7,#555); color: light-dark(#000,#fff);
+    outline: 3px solid light-dark(rgba(0,0,0,0.08),rgba(255,255,255,0.04));
 }

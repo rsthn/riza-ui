@@ -30,7 +30,7 @@
 )
 
 (for i (breakpoints_up)
-    (set suffix (concat "-" (substr 2 (trim (lines.(i))))))
+    (set suffix (concat "-" (str:sub 2 (trim (lines.(i))))))
     (when (eq? (suffix) "-") (set suffix ""))
 
     (set out [])
@@ -41,7 +41,7 @@
 )
 
 (for i (breakpoints_down)
-    (set suffix (concat "-" (substr 3 (trim (lines.(i))))))
+    (set suffix (concat "-" (str:sub 3 (trim (lines.(i))))))
     (when (eq? (suffix) "-") (set suffix ""))
     (append suffix "-d")
 
