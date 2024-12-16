@@ -1,5 +1,5 @@
 
-import "../css/rui.css";
+import "../css/riza-ui.css";
 
 import "../css/dialog.css";
 import "../css/btn-strip.css";

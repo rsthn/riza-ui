@@ -1,15 +1,15 @@
 {
-    "name": "rui",
+    "name": "riza-ui",
     "version": "1.0.0",
-    "description": "rui",
+    "description": "riza-ui",
     "type": "module",
-    "main": "./dist/rui.m.js",
-    "module": "./dist/rui.m.js",
-    "global": "./dist/rui.js",
+    "main": "./dist/riza-ui.m.js",
+    "module": "./dist/riza-ui.m.js",
+    "global": "./dist/riza-ui.js",
     "scripts": {
         "test": "echo Ok",
         "changes": "rose :changes",
-        "build-css": "rose css/compile.fn css/rui.src.css css/rui.css",
+        "build-css": "rose css/compile.fn css/riza-ui.src.css css/riza-ui.css",
         "build:global": "parcel build --target global",
         "build:module": "parcel build --target module",
         "build": "shx rm -rf .parcel-cache && pnpm build-css && pnpm build:module",
@@ -30,14 +30,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/rsthn/rui.git"
+        "url": "git+https://github.com/rsthn/riza-ui.git"
     },
     "author": "RedStar Technologies",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/rsthn/rui/issues"
+        "url": "https://github.com/rsthn/riza-ui/issues"
     },
-    "homepage": "https://github.com/rsthn/rui#readme",
+    "homepage": "https://github.com/rsthn/riza-ui#readme",
     "files": [
         "dist/",
         "LICENSE",

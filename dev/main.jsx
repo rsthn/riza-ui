@@ -2,7 +2,7 @@
 import { Router } from 'riza';
 import "./main.css";
 
-import "../css/rui.css";
+import "../css/riza-ui.css";
 
 import "../css/dialog.css";
 import "../css/btn-strip.css";
