@@ -1,5 +1,5 @@
 
-import "../css/xui.css";
+import "../css/rui.css";
 
 import "../css/dialog.css";
 import "../css/btn-strip.css";
