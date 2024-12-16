@@ -43,13 +43,11 @@
         "LICENSE",
         "README.md"
     ],
-    "dependencies": {
-        "babel-plugin-riza": "^2.0.9",
-        "riza": "^3.0.32"
-    },
     "devDependencies": {
-        "@babel/core": "^7.12.0",
-        "parcel": "^2.12.0",
+        "@babel/core": "^7.26.0",
+        "babel-plugin-riza": "^2.0.9",
+        "parcel": "^2.13.2",
+        "riza": "^3.0.32",
         "shx": "^0.3.4"
     }
 }
