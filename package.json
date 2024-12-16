@@ -1,6 +1,6 @@
 {
     "name": "riza-ui",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "riza-ui",
     "type": "module",
     "main": "./dist/riza-ui.m.js",
