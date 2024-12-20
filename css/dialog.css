@@ -39,17 +39,17 @@
 
 .dialog.top {
     position: fixed; top: 0; border-radius: 0 0 1rem 1rem;
-    width: max-content; left: 50%; transform: translateX(-50%); max-height: 80vh;
+    left: 50%; transform: translateX(-50%); max-height: 80vh;
 }
 
 .dialog.bottom {
     position: fixed; bottom: 0; border-radius: 1rem 1rem 0 0;
-    width: max-content; left: 50%; transform: translateX(-50%); max-height: 80vh;
+    left: 50%; transform: translateX(-50%); max-height: 80vh;
 }
 
 .dialog.center {
-    position: fixed; left: 50%; top: 50%; border-radius: 1rem;
-    width: max-content; transform: translateX(-50%) translateY(-100%);
+    position: fixed; left: 50%; top: 15%; border-radius: 1rem;
+    transform: translateX(-50%) translateY(0%);
 }
 
 /* Anims */
@@ -67,7 +67,7 @@
 .dialog.right.is-inactive { transform: translateX(100%); }
 .dialog.top.is-inactive { transform: translateX(-50%) translateY(-100%); }
 .dialog.bottom.is-inactive { transform: translateX(-50%) translateY(100%); }
-.dialog.center.is-inactive { transform: translateX(-50%) translateY(-130%) scale(0.5); }
+.dialog.center.is-inactive { transform: translateX(-50%) translateY(-30%) scale(0.5); }
 
 /* Theme */
 .dialog.center, .dialog.left, .dialog.right, .dialog.top, .dialog.bottom {

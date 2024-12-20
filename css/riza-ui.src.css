@@ -1,5 +1,5 @@
 :root {
-    --fsb: 16px;
+    --fsb: 14px;
     --gap: 0;
     --duration: 0.2s;
 }
@@ -28,6 +28,14 @@ body {
 
 html.no-user-select * {
     user-select: none;
+}
+
+.usel-none {
+    user-select: none;
+}
+
+.usel-all {
+    user-select: all;
 }
 
 select option {
@@ -115,12 +123,14 @@ select option {
 .w-auto__ { width: auto; }
 .w-min__ { width: min-content; }
 .w-max__ { width: max-content; }
+.w-fit__ { width: fit-content; }
 
 .h-0__ { height: 0; }
 .h-100__ { height: 100%; }
 .h-auto__ { height: auto; }
 .h-min__ { height: min-content; }
 .h-max__ { height: max-content; }
+.h-fit__ { height: fit-content; }
 
 
 /**
