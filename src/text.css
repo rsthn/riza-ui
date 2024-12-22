@@ -1,0 +1,27 @@
+.text-primary {
+    color: light-dark(#6c28be,#6c28be);
+}
+
+.text-secondary {
+    color: light-dark(#be28ac,#be28ac);
+}
+
+.text-success {
+    color: light-dark(#16b72e,#16b72e);
+}
+
+.text-danger {
+    color: light-dark(#be2830,#93132f);
+}
+
+.text-warn {
+    color: light-dark(#cc4e20,#cc4e20);
+}
+
+.text-info {
+    color: light-dark(#16caca,#13adad);
+}
+
+.text-dark {
+    color: light-dark(#333,#e7e7e7);
+}
