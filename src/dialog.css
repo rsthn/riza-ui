@@ -52,6 +52,11 @@
     transform: translateX(-50%) translateY(0%);
 }
 
+.dialog.middle {
+    position: fixed; left: 50%; transform: translateX(-50%); top: 0; border-radius: 1rem 0 0 1rem;
+    margin: var(--margin) 0; height: calc(100vh - 2*var(--margin));
+}
+
 /* Anims */
 .dialog {
     transition: all calc(1.5*var(--duration)) cubic-bezier(0.175, 0.885, 0.32, 1.575);
@@ -68,9 +73,10 @@
 .dialog.top.is-inactive { transform: translateX(-50%) translateY(-100%); }
 .dialog.bottom.is-inactive { transform: translateX(-50%) translateY(100%); }
 .dialog.center.is-inactive { transform: translateX(-50%) translateY(-30%) scale(0.5); }
+.dialog.middle.is-inactive { transform: translateX(-50%) translateY(-30%) scale(0.5); }
 
 /* Theme */
-.dialog.center, .dialog.left, .dialog.right, .dialog.top, .dialog.bottom {
+.dialog.center, .dialog.left, .dialog.right, .dialog.top, .dialog.bottom, dialog.middle {
     box-shadow: 0 0 2.5rem rgba(0,0,0,0.5);
 }
 
