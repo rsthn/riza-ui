@@ -85,6 +85,10 @@ select option {
 .v-top__ { vertical-align: top; }
 .v-bottom__ { vertical-align: bottom; }
 
+.v-middle-all__ > * { display: inline-block; vertical-align: middle; }
+.v-top-all__ > * { display: inline-block; vertical-align: top; }
+.v-bottom-all__ > * { display: inline-block; vertical-align: bottom; }
+
 .float-left__ { float: left; }
 .float-right__ { float: right; }
 

@@ -94,6 +94,10 @@ select option {
 
 
 
+
+
+
+
 /**
  * Display mode and position.
  */
@@ -418,6 +422,9 @@ select option {
     .v-middle { vertical-align: middle; }
     .v-top { vertical-align: top; }
     .v-bottom { vertical-align: bottom; }
+    .v-middle-all > * { display: inline-block; vertical-align: middle; }
+    .v-top-all > * { display: inline-block; vertical-align: top; }
+    .v-bottom-all > * { display: inline-block; vertical-align: bottom; }
     .float-left { float: left; }
     .float-right { float: right; }
     .no-shadow { box-shadow: none; }
@@ -680,6 +687,9 @@ select option {
     .v-middle-md { vertical-align: middle; }
     .v-top-md { vertical-align: top; }
     .v-bottom-md { vertical-align: bottom; }
+    .v-middle-all-md > * { display: inline-block; vertical-align: middle; }
+    .v-top-all-md > * { display: inline-block; vertical-align: top; }
+    .v-bottom-all-md > * { display: inline-block; vertical-align: bottom; }
     .float-left-md { float: left; }
     .float-right-md { float: right; }
     .no-shadow-md { box-shadow: none; }
@@ -942,6 +952,9 @@ select option {
     .v-middle-lg { vertical-align: middle; }
     .v-top-lg { vertical-align: top; }
     .v-bottom-lg { vertical-align: bottom; }
+    .v-middle-all-lg > * { display: inline-block; vertical-align: middle; }
+    .v-top-all-lg > * { display: inline-block; vertical-align: top; }
+    .v-bottom-all-lg > * { display: inline-block; vertical-align: bottom; }
     .float-left-lg { float: left; }
     .float-right-lg { float: right; }
     .no-shadow-lg { box-shadow: none; }
@@ -1204,6 +1217,9 @@ select option {
     .v-middle-xl { vertical-align: middle; }
     .v-top-xl { vertical-align: top; }
     .v-bottom-xl { vertical-align: bottom; }
+    .v-middle-all-xl > * { display: inline-block; vertical-align: middle; }
+    .v-top-all-xl > * { display: inline-block; vertical-align: top; }
+    .v-bottom-all-xl > * { display: inline-block; vertical-align: bottom; }
     .float-left-xl { float: left; }
     .float-right-xl { float: right; }
     .no-shadow-xl { box-shadow: none; }
@@ -1467,6 +1483,9 @@ select option {
     .v-middle-xl-d { vertical-align: middle; }
     .v-top-xl-d { vertical-align: top; }
     .v-bottom-xl-d { vertical-align: bottom; }
+    .v-middle-all-xl-d > * { display: inline-block; vertical-align: middle; }
+    .v-top-all-xl-d > * { display: inline-block; vertical-align: top; }
+    .v-bottom-all-xl-d > * { display: inline-block; vertical-align: bottom; }
     .float-left-xl-d { float: left; }
     .float-right-xl-d { float: right; }
     .no-shadow-xl-d { box-shadow: none; }
@@ -1728,6 +1747,9 @@ select option {
     .v-middle-lg-d { vertical-align: middle; }
     .v-top-lg-d { vertical-align: top; }
     .v-bottom-lg-d { vertical-align: bottom; }
+    .v-middle-all-lg-d > * { display: inline-block; vertical-align: middle; }
+    .v-top-all-lg-d > * { display: inline-block; vertical-align: top; }
+    .v-bottom-all-lg-d > * { display: inline-block; vertical-align: bottom; }
     .float-left-lg-d { float: left; }
     .float-right-lg-d { float: right; }
     .no-shadow-lg-d { box-shadow: none; }
@@ -1989,6 +2011,9 @@ select option {
     .v-middle-md-d { vertical-align: middle; }
     .v-top-md-d { vertical-align: top; }
     .v-bottom-md-d { vertical-align: bottom; }
+    .v-middle-all-md-d > * { display: inline-block; vertical-align: middle; }
+    .v-top-all-md-d > * { display: inline-block; vertical-align: top; }
+    .v-bottom-all-md-d > * { display: inline-block; vertical-align: bottom; }
     .float-left-md-d { float: left; }
     .float-right-md-d { float: right; }
     .no-shadow-md-d { box-shadow: none; }
@@ -2250,6 +2275,9 @@ select option {
     .v-middle-d { vertical-align: middle; }
     .v-top-d { vertical-align: top; }
     .v-bottom-d { vertical-align: bottom; }
+    .v-middle-all-d > * { display: inline-block; vertical-align: middle; }
+    .v-top-all-d > * { display: inline-block; vertical-align: top; }
+    .v-bottom-all-d > * { display: inline-block; vertical-align: bottom; }
     .float-left-d { float: left; }
     .float-right-d { float: right; }
     .no-shadow-d { box-shadow: none; }

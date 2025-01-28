@@ -39,12 +39,12 @@
 
 .dialog.top {
     position: fixed; top: 0; border-radius: 0 0 1rem 1rem;
-    left: 50%; transform: translateX(-50%); max-height: 80vh;
+    left: 50%; transform: translateX(-50%); max-height: calc(100vh - 1rem);
 }
 
 .dialog.bottom {
     position: fixed; bottom: 0; border-radius: 1rem 1rem 0 0;
-    left: 50%; transform: translateX(-50%); max-height: 80vh;
+    left: 50%; transform: translateX(-50%); max-height: calc(100vh - 1rem);
 }
 
 .dialog.center {
@@ -53,7 +53,7 @@
 }
 
 .dialog.middle {
-    position: fixed; left: 50%; transform: translateX(-50%); top: 0; border-radius: 1rem 0 0 1rem;
+    position: fixed; left: 50%; transform: translateX(-50%); top: 0; border-radius: 1rem;
     margin: var(--margin) 0; height: calc(100vh - 2*var(--margin));
 }
 
@@ -68,15 +68,15 @@
     opacity: 0; pointer-events: none;
 }
 
-.dialog.left.is-inactive { transform: translateX(-100%); }
-.dialog.right.is-inactive { transform: translateX(100%); }
-.dialog.top.is-inactive { transform: translateX(-50%) translateY(-100%); }
-.dialog.bottom.is-inactive { transform: translateX(-50%) translateY(100%); }
+.dialog.left.is-inactive { transform: translateX(-15%); }
+.dialog.right.is-inactive { transform: translateX(15%); }
+.dialog.top.is-inactive { transform: translateX(-50%) translateY(-15%); }
+.dialog.bottom.is-inactive { transform: translateX(-50%) translateY(15%); }
 .dialog.center.is-inactive { transform: translateX(-50%) translateY(-30%) scale(0.5); }
 .dialog.middle.is-inactive { transform: translateX(-50%) translateY(-30%) scale(0.5); }
 
 /* Theme */
-.dialog.center, .dialog.left, .dialog.right, .dialog.top, .dialog.bottom, dialog.middle {
+.dialog.center, .dialog.left, .dialog.right, .dialog.top, .dialog.bottom, .dialog.middle {
     box-shadow: 0 0 2.5rem rgba(0,0,0,0.5);
 }
 
