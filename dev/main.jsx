@@ -2,12 +2,12 @@
 import { Router } from 'riza';
 import "./main.css";
 
-import "../css/riza-ui.css";
+import "../src/riza-ui.css";
 
-import "../css/dialog.css";
-import "../css/btn-strip.css";
-import "../css/btn.css";
-import "../css/form.css";
+import "../src/dialog.css";
+import "../src/btn-strip.css";
+import "../src/btn.css";
+import "../src/form.css";
 
 const App = () =>
 <r-panel data-root="true" class="p-4 s-fill" onCreated={ () => queueMicrotask(() => Router.refresh()) }>
