@@ -1,6 +1,6 @@
 
-@import url("riza-ui.css");
-
+@import url("root.css");
+@import url("common.css");
 @import url("text.css");
 @import url("dialog.css");
 @import url("btn-strip.css");

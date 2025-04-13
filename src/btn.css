@@ -20,43 +20,41 @@
 
 /* Theme */
 .btn {
-    background: light-dark(#e0e0e0,#111);
-    color: light-dark(#222,#eee);
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: var(--btn-border);
 }
 .btn:hover {
-    background: light-dark(#ccc,#000);
-    color: light-dark(#000,#fff);
+    background: var(--btn-bg-hover);
+    color: var(--btn-text-hover);
+    border: var(--btn-border-hover);
 }
 
 .btn.outline {
-    background: transparent;
-    color: light-dark(#222,#ddd);
-    border: 1px solid light-dark(#777,#444);
+    background: var(--btn-alt-bg);
+    color: var(--btn-alt-text);
+    border: var(--btn-alt-border);
 }
 .btn.outline:hover {
-    background: light-dark(#e0e0e0,#111);
-    color: light-dark(#000,#fff);
-    border: 1px solid light-dark(#e0e0e0,#111);
+    background: var(--btn-alt-bg-hover);
+    color: var(--btn-alt-text-hover);
+    border: var(--btn-alt-border-hover);
 }
 
 /* ** */
 .btn.primary {
-    background: light-dark(#6c28be,#6c28be);
-    color: light-dark(#fff,#fff);
-}
-.btn.primary:hover {
-    background: light-dark(#3c008e,#4c089e);
-}
-
-.btn.primary.outline {
-    background: transparent;
-    color: light-dark(#6c28be,#b980ff);
-    border: 1px solid light-dark(#6c28be,#7641b5);
-}
-.btn.primary.outline:hover {
-    background: light-dark(#6c28be,#6c28be);
-    color: light-dark(#fff,#fff);
-    border: 1px solid light-dark(#6c28be,#6c28be);
+    --btn-bg: var(--btn-primary-bg);
+    --btn-text: var(--btn-primary-text);
+    --btn-border: var(--btn-primary-border);
+    --btn-bg-hover: var(--btn-primary-bg-hover);
+    --btn-text-hover: var(--btn-primary-text-hover);
+    --btn-border-hover: var(--btn-primary-border-hover);
+    --btn-alt-bg: var(--btn-primary-alt-bg);
+    --btn-alt-text: var(--btn-primary-alt-text);
+    --btn-alt-border: var(--btn-primary-alt-border);
+    --btn-alt-bg-hover: var(--btn-primary-alt-bg-hover);
+    --btn-alt-text-hover: var(--btn-primary-alt-text-hover);
+    --btn-alt-border-hover: var(--btn-primary-alt-border-hover);
 }
 
 /* ** */

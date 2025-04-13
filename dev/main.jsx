@@ -2,8 +2,8 @@
 import { Router } from 'riza';
 import "./main.css";
 
-import "../src/riza-ui.css";
-
+import "../src/root.css";
+import "../src/common.css";
 import "../src/dialog.css";
 import "../src/btn-strip.css";
 import "../src/btn.css";
@@ -18,52 +18,52 @@ const App = () =>
     <hr/>
     <p><b>Buttons</b></p>
     <div class="mb-1">
-        <button class="btn">Default</button>
-        <button class="btn outline">Default</button>
-        <button class="btn small">Default</button>
-        <button class="btn small outline">Default</button>
+        <button class="btn">btn</button>
+        <button class="btn outline">btn outline</button>
+        <button class="btn small">btn small</button>
+        <button class="btn small outline">btn small outline</button>
     </div>
     <div class="mb-1">
-        <button class="btn primary">Default</button>
-        <button class="btn primary outline">Default</button>
-        <button class="btn primary small">Default</button>
-        <button class="btn primary small outline">Default</button>
+        <button class="btn primary">btn primary</button>
+        <button class="btn primary outline">btn primary outline</button>
+        <button class="btn primary small">btn primary small</button>
+        <button class="btn primary small outline">btn primary small outline</button>
     </div>
     <div class="mb-1">
-        <button class="btn secondary">Default</button>
-        <button class="btn secondary outline">Default</button>
-        <button class="btn secondary small">Default</button>
-        <button class="btn secondary small outline">Default</button>
+        <button class="btn secondary">btn secondary</button>
+        <button class="btn secondary outline">btn secondary outline</button>
+        <button class="btn secondary small">btn secondary small</button>
+        <button class="btn secondary small outline">btn secondary small outline</button>
     </div>
     <div class="mb-1">
-        <button class="btn success">Default</button>
-        <button class="btn success outline">Default</button>
-        <button class="btn success small">Default</button>
-        <button class="btn success small outline">Default</button>
+        <button class="btn success">btn success</button>
+        <button class="btn success outline">btn success outline</button>
+        <button class="btn success small">btn success small</button>
+        <button class="btn success small outline">btn success small outline</button>
     </div>
     <div class="mb-1">
-        <button class="btn warn">Default</button>
-        <button class="btn warn outline">Default</button>
-        <button class="btn warn small">Default</button>
-        <button class="btn warn small outline">Default</button>
+        <button class="btn warn">btn warn</button>
+        <button class="btn warn outline">btn warn outline</button>
+        <button class="btn warn small">btn warn small</button>
+        <button class="btn warn small outline">btn warn small outline</button>
     </div>
     <div class="mb-1">
-        <button class="btn danger">Default</button>
-        <button class="btn danger outline">Default</button>
-        <button class="btn danger small">Default</button>
-        <button class="btn danger small outline">Default</button>
+        <button class="btn danger">btn danger</button>
+        <button class="btn danger outline">btn danger outline</button>
+        <button class="btn danger small">btn danger small</button>
+        <button class="btn danger small outline">btn danger small outline</button>
     </div>
     <div class="mb-1">
-        <button class="btn info">Default</button>
-        <button class="btn info outline">Default</button>
-        <button class="btn info small">Default</button>
-        <button class="btn info small outline">Default</button>
+        <button class="btn info">btn info</button>
+        <button class="btn info outline">btn info outline</button>
+        <button class="btn info small">btn info small</button>
+        <button class="btn info small outline">btn info small outline</button>
     </div>
     <div class="mb-1">
-        <button class="btn dark">Default</button>
-        <button class="btn dark outline">Default</button>
-        <button class="btn dark small">Default</button>
-        <button class="btn dark small outline">Default</button>
+        <button class="btn dark">btn dark</button>
+        <button class="btn dark outline">btn dark outline</button>
+        <button class="btn dark small">btn dark small</button>
+        <button class="btn dark small outline">btn dark small outline</button>
     </div>
 
     <hr/>

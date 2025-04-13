@@ -1,0 +1,32 @@
+:root {
+
+    /***/
+    --btn-bg: light-dark(#e7e7e7,#222222);
+    --btn-text: light-dark(#222222,#e7e7e7);
+    --btn-border: none;
+    --btn-bg-hover: light-dark(#cccccc,#000000);
+    --btn-text-hover: light-dark(#000000,#e7e7e7);
+    --btn-border-hover: none;
+
+    --btn-alt-bg: transparent;
+    --btn-alt-text: light-dark(#222222,#e7e7e7);
+    --btn-alt-border: 1px solid light-dark(#999999,#444444);
+    --btn-alt-bg-hover: light-dark(#cccccc,#000000);
+    --btn-alt-text-hover: light-dark(#000000,#ffffff);
+    --btn-alt-border-hover: 1px solid transparent;
+
+    /***/
+    --btn-primary-bg: light-dark(#6c28be,#6c28be);
+    --btn-primary-text: light-dark(#ffffff,#ffffff);
+    --btn-primary-border: none;
+    --btn-primary-bg-hover: light-dark(#3c008e,#4c089e);
+    --btn-primary-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-primary-border-hover: none;
+
+    --btn-primary-alt-bg: transparent;
+    --btn-primary-alt-text: light-dark(#6c28be,#b980ff);
+    --btn-primary-alt-border: 1px solid light-dark(#6c28be,#6c28be);
+    --btn-primary-alt-bg-hover: light-dark(#6c28be,#4c089e);
+    --btn-primary-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-primary-alt-border-hover: 1px solid light-dark(#6c28be,#6c28be);
+}

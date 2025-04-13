@@ -7,9 +7,9 @@
     "scripts": {
         "test": "echo Ok",
         "changes": "rose :changes",
-        "build-css": "rose src/compile.fn src/riza-ui.src.css src/riza-ui.css",
+        "build-common": "rose src/compile.fn src/common.src.css src/common.css",
         "build:global": "parcel build --target global",
-        "build": "shx rm -rf .parcel-cache && shx rm -rf dist && shx mkdir dist && pnpm build-css && pnpm build:global",
+        "build": "shx rm -rf .parcel-cache && shx rm -rf dist && shx mkdir dist && pnpm build-common && pnpm build:global",
         "dev": "parcel serve dev/index.html"
     },
     "targets": {
