@@ -37,10 +37,10 @@
         "README.md"
     ],
     "devDependencies": {
-        "@babel/core": "^7.26.0",
-        "babel-plugin-riza": "^2.0.9",
-        "parcel": "^2.13.2",
-        "riza": "^3.0.32",
+        "@babel/core": "^7.26.10",
+        "babel-plugin-riza": "^2.1.2",
+        "parcel": "^2.14.4",
+        "riza": "^3.0.39",
         "shx": "^0.3.4"
     },
     "packageManager": "pnpm@10.7.1+sha512.2d92c86b7928dc8284f53494fb4201f983da65f0fb4f0d40baafa5cf628fa31dae3e5968f12466f17df7e97310e30f343a648baea1b9b350685dafafffdf5808"

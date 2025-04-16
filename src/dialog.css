@@ -81,9 +81,9 @@
 }
 
 .dialog > .title {
-    background: light-dark(#f7f7f7,#1a1920); color: light-dark(#000,#fff);
+    background: light-dark(#f7f7f7,#2b2a33); color: light-dark(#000,#fff);
 }
 
 .dialog > div {
-    background: light-dark(#f7f7f7,#1a1920); color: light-dark(#000,#ccc);
+    background: light-dark(#f7f7f7,#2b2a33); color: light-dark(#000,#ccc);
 }

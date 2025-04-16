@@ -1,123 +1,130 @@
 :root {
 
     /***/
-    --btn-bg: light-dark(#e7e7e7,#333333);
-    --btn-text: light-dark(#222222,#e7e7e7);
-    --btn-border: none;
-    --btn-bg-hover: light-dark(#cccccc,#444444);
-    --btn-text-hover: light-dark(#000000,#e7e7e7);
-    --btn-border-hover: none;
-
-    --btn-alt-bg: transparent;
-    --btn-alt-text: light-dark(#222222,#e7e7e7);
-    --btn-alt-border: 1px solid light-dark(#999999,#555555);
-    --btn-alt-bg-hover: light-dark(#cccccc,#444444);
-    --btn-alt-text-hover: light-dark(#000000,#e7e7e7);
-    --btn-alt-border-hover: 1px solid transparent;
+    --c-field-bg: light-dark(#ffffff, #2b2a33);
+    --c-field-label: light-dark(#444444, #bbbbbb);
+    --c-field-text: light-dark(#000000, #eeeeee);
+    --c-field-border: 1px solid light-dark(#d0d0d0, #4b4a53);
+    --c-field-border-hover: 2px solid light-dark(#4e18de,#7e48fe);
 
     /***/
-    --btn-primary-bg: light-dark(#4e18de,#4e18de);
-    --btn-primary-text: light-dark(#ffffff,#ffffff);
-    --btn-primary-border: none;
-    --btn-primary-bg-hover: light-dark(#2e08be,#2e08be);
-    --btn-primary-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-primary-border-hover: none;
+    --c-bg: light-dark(#e7e7e7,#333333);
+    --c-text: light-dark(#222222,#e7e7e7);
+    --c-border: none;
+    --c-bg-hover: light-dark(#cccccc,#444444);
+    --c-text-hover: light-dark(#000000,#e7e7e7);
+    --c-border-hover: none;
 
-    --btn-primary-alt-bg: transparent;
-    --btn-primary-alt-text: light-dark(#4e18de,#7e48fe);
-    --btn-primary-alt-border: 1px solid light-dark(#4e18de,#7e48fe);
-    --btn-primary-alt-bg-hover: light-dark(#2e08be,#4e08de);
-    --btn-primary-alt-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-primary-alt-border-hover: 1px solid light-dark(#4e18de,#4e18de);
-
-    /***/
-    --btn-secondary-bg: light-dark(#be28ac,#be28ac);
-    --btn-secondary-text: light-dark(#ffffff,#ffffff);
-    --btn-secondary-border: none;
-    --btn-secondary-bg-hover: light-dark(#9e088c,#9e088c);
-    --btn-secondary-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-secondary-border-hover: none;
-
-    --btn-secondary-alt-bg: transparent;
-    --btn-secondary-alt-text: light-dark(#be28ac,#f665e5);
-    --btn-secondary-alt-border: 1px solid light-dark(#be28ac,#e344d0);
-    --btn-secondary-alt-bg-hover: light-dark(#9e088c,#9e088c);
-    --btn-secondary-alt-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-secondary-alt-border-hover: 1px solid light-dark(#be28ac,#be28ac);
+    --c-alt-bg: transparent;
+    --c-alt-text: light-dark(#222222,#e7e7e7);
+    --c-alt-border: 1px solid light-dark(#999999,#555555);
+    --c-alt-bg-hover: light-dark(#cccccc,#444444);
+    --c-alt-text-hover: light-dark(#000000,#e7e7e7);
+    --c-alt-border-hover: 1px solid transparent;
 
     /***/
-    --btn-success-bg: light-dark(#16b72e,#16b72e);
-    --btn-success-text: light-dark(#ffffff,#ffffff);
-    --btn-success-border: none;
-    --btn-success-bg-hover: light-dark(#06a71e,#06a71e);
-    --btn-success-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-success-border-hover: none;
+    --c-primary-bg: light-dark(#4e18de,#4e18de);
+    --c-primary-text: light-dark(#ffffff,#ffffff);
+    --c-primary-border: none;
+    --c-primary-bg-hover: light-dark(#2e08be,#2e08be);
+    --c-primary-text-hover: light-dark(#ffffff,#ffffff);
+    --c-primary-border-hover: none;
 
-    --btn-success-alt-bg: transparent;
-    --btn-success-alt-text: light-dark(#16b72e,#6ebe38);
-    --btn-success-alt-border: 1px solid light-dark(#16b72e,#16b72e);
-    --btn-success-alt-bg-hover: light-dark(#06a71e,#16b72e);
-    --btn-success-alt-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-success-alt-border-hover: 1px solid light-dark(#16b72e,#16b72e);
-
-    /***/
-    --btn-danger-bg: light-dark(#be1818,#be1818);
-    --btn-danger-text: light-dark(#ffffff,#ffffff);
-    --btn-danger-border: none;
-    --btn-danger-bg-hover: light-dark(#ae0808,#ae0808);
-    --btn-danger-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-danger-border-hover: none;
-
-    --btn-danger-alt-bg: transparent;
-    --btn-danger-alt-text: light-dark(#be1818,#f65555);
-    --btn-danger-alt-border: 1px solid light-dark(#be1818,#e33434);
-    --btn-danger-alt-bg-hover: light-dark(#ae0808,#ae0808);
-    --btn-danger-alt-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-danger-alt-border-hover: 1px solid light-dark(#be1818,#be1818);
+    --c-primary-alt-bg: transparent;
+    --c-primary-alt-text: light-dark(#4e18de,#7e48fe);
+    --c-primary-alt-border: 1px solid light-dark(#4e18de,#7e48fe);
+    --c-primary-alt-bg-hover: light-dark(#2e08be,#4e08de);
+    --c-primary-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --c-primary-alt-border-hover: 1px solid light-dark(#4e18de,#4e18de);
 
     /***/
-    --btn-warn-bg: light-dark(#de8e18,#de8e18);
-    --btn-warn-text: light-dark(#ffffff,#ffffff);
-    --btn-warn-border: none;
-    --btn-warn-bg-hover: light-dark(#be6e08,#be6e08);
-    --btn-warn-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-warn-border-hover: none;
+    --c-secondary-bg: light-dark(#be28ac,#be28ac);
+    --c-secondary-text: light-dark(#ffffff,#ffffff);
+    --c-secondary-border: none;
+    --c-secondary-bg-hover: light-dark(#9e088c,#9e088c);
+    --c-secondary-text-hover: light-dark(#ffffff,#ffffff);
+    --c-secondary-border-hover: none;
 
-    --btn-warn-alt-bg: transparent;
-    --btn-warn-alt-text: light-dark(#de8e18,#de8e18);
-    --btn-warn-alt-border: 1px solid light-dark(#de8e18,#de8e18);
-    --btn-warn-alt-bg-hover: light-dark(#be6e08,#be6e08);
-    --btn-warn-alt-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-warn-alt-border-hover: 1px solid light-dark(#de8e18,#de8e18);
-
-    /***/
-    --btn-info-bg: light-dark(#2c88fe,#2c88fe);
-    --btn-info-text: light-dark(#ffffff,#ffffff);
-    --btn-info-border: none;
-    --btn-info-bg-hover: light-dark(#0c68de,#0c68de);
-    --btn-info-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-info-border-hover: none;
-
-    --btn-info-alt-bg: transparent;
-    --btn-info-alt-text: light-dark(#2c88fe,#2c88fe);
-    --btn-info-alt-border: 1px solid light-dark(#2c88fe,#2c88fe);
-    --btn-info-alt-bg-hover: light-dark(#0c68de,#0c68de);
-    --btn-info-alt-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-info-alt-border-hover: 1px solid light-dark(#2c88fe,#2c88fe);
+    --c-secondary-alt-bg: transparent;
+    --c-secondary-alt-text: light-dark(#be28ac,#f665e5);
+    --c-secondary-alt-border: 1px solid light-dark(#be28ac,#e344d0);
+    --c-secondary-alt-bg-hover: light-dark(#9e088c,#9e088c);
+    --c-secondary-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --c-secondary-alt-border-hover: 1px solid light-dark(#be28ac,#be28ac);
 
     /***/
-    --btn-inv-bg: light-dark(#444444,#777777);
-    --btn-inv-text: light-dark(#ffffff,#ffffff);
-    --btn-inv-border: none;
-    --btn-inv-bg-hover: light-dark(#333333,#555555);
-    --btn-inv-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-inv-border-hover: none;
+    --c-success-bg: light-dark(#16b72e,#16b72e);
+    --c-success-text: light-dark(#ffffff,#ffffff);
+    --c-success-border: none;
+    --c-success-bg-hover: light-dark(#06a71e,#06a71e);
+    --c-success-text-hover: light-dark(#ffffff,#ffffff);
+    --c-success-border-hover: none;
 
-    --btn-inv-alt-bg: transparent;
-    --btn-inv-alt-text: light-dark(#444444,#aaaaaa);
-    --btn-inv-alt-border: 1px solid light-dark(#444444,#777777);
-    --btn-inv-alt-bg-hover: light-dark(#333333,#555555);
-    --btn-inv-alt-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-inv-alt-border-hover: 1px solid light-dark(#444444,#444444);
+    --c-success-alt-bg: transparent;
+    --c-success-alt-text: light-dark(#16b72e,#6ebe38);
+    --c-success-alt-border: 1px solid light-dark(#16b72e,#16b72e);
+    --c-success-alt-bg-hover: light-dark(#06a71e,#16b72e);
+    --c-success-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --c-success-alt-border-hover: 1px solid light-dark(#16b72e,#16b72e);
+
+    /***/
+    --c-danger-bg: light-dark(#be1818,#be1818);
+    --c-danger-text: light-dark(#ffffff,#ffffff);
+    --c-danger-border: none;
+    --c-danger-bg-hover: light-dark(#ae0808,#ae0808);
+    --c-danger-text-hover: light-dark(#ffffff,#ffffff);
+    --c-danger-border-hover: none;
+
+    --c-danger-alt-bg: transparent;
+    --c-danger-alt-text: light-dark(#be1818,#f65555);
+    --c-danger-alt-border: 1px solid light-dark(#be1818,#e33434);
+    --c-danger-alt-bg-hover: light-dark(#ae0808,#ae0808);
+    --c-danger-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --c-danger-alt-border-hover: 1px solid light-dark(#be1818,#be1818);
+
+    /***/
+    --c-warn-bg: light-dark(#de8e18,#de8e18);
+    --c-warn-text: light-dark(#ffffff,#ffffff);
+    --c-warn-border: none;
+    --c-warn-bg-hover: light-dark(#be6e08,#be6e08);
+    --c-warn-text-hover: light-dark(#ffffff,#ffffff);
+    --c-warn-border-hover: none;
+
+    --c-warn-alt-bg: transparent;
+    --c-warn-alt-text: light-dark(#de8e18,#de8e18);
+    --c-warn-alt-border: 1px solid light-dark(#de8e18,#de8e18);
+    --c-warn-alt-bg-hover: light-dark(#be6e08,#be6e08);
+    --c-warn-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --c-warn-alt-border-hover: 1px solid light-dark(#de8e18,#de8e18);
+
+    /***/
+    --c-info-bg: light-dark(#2c88fe,#2c88fe);
+    --c-info-text: light-dark(#ffffff,#ffffff);
+    --c-info-border: none;
+    --c-info-bg-hover: light-dark(#0c68de,#0c68de);
+    --c-info-text-hover: light-dark(#ffffff,#ffffff);
+    --c-info-border-hover: none;
+
+    --c-info-alt-bg: transparent;
+    --c-info-alt-text: light-dark(#2c88fe,#2c88fe);
+    --c-info-alt-border: 1px solid light-dark(#2c88fe,#2c88fe);
+    --c-info-alt-bg-hover: light-dark(#0c68de,#0c68de);
+    --c-info-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --c-info-alt-border-hover: 1px solid light-dark(#2c88fe,#2c88fe);
+
+    /***/
+    --c-inv-bg: light-dark(#444444,#777777);
+    --c-inv-text: light-dark(#ffffff,#ffffff);
+    --c-inv-border: none;
+    --c-inv-bg-hover: light-dark(#333333,#555555);
+    --c-inv-text-hover: light-dark(#ffffff,#ffffff);
+    --c-inv-border-hover: none;
+
+    --c-inv-alt-bg: transparent;
+    --c-inv-alt-text: light-dark(#444444,#aaaaaa);
+    --c-inv-alt-border: 1px solid light-dark(#444444,#777777);
+    --c-inv-alt-bg-hover: light-dark(#333333,#555555);
+    --c-inv-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --c-inv-alt-border-hover: 1px solid light-dark(#444444,#444444);
 
 }

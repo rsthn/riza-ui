@@ -1,33 +1,28 @@
 /* Structure */
 .form-field {
-    display: block; margin-bottom: 0.7rem;
+    display: block; margin-bottom: 1em;
 }
 
 .form-field label {
-    display: block; margin-bottom: 0.1rem; font-weight: 200;
-    color: light-dark(#444,#ddd);
+    display: block; margin-bottom: 0.2em; font-weight: 400; font-size: 1em;
+    color: var(--c-field-label);
 }
 
 .form-field input, .form-field textarea, .form-field select {
     display: inline-block; width: 100%; box-sizing: border-box; font-weight: 400; font-size: 1em;
-    border-radius: 0.2rem; padding: 0.3em 0.6em; outline: none; resize: none;
-}
-
-.form-field.required label:after {
-    content: "*"; margin-left: 0.1em;
-}
-
-/* Theme */
-.form-field input, .form-field textarea, .form-field select {
-    background: light-dark(#fff,#15141a); border: 1px solid light-dark(#d0d0d0,#292732);
-    color: light-dark(#222,#ddd);
+    border-radius: 0.3em; padding: 0.5em 0.8em; outline: none; resize: none;
+    background: var(--c-field-bg); border: var(--c-field-border); color: var(--c-field-text);
+    box-shadow: 0 0.1em 0.5em -0.1em light-dark(rgba(0,0,0,0.15), rgba(0,0,0,0.5));
 }
 
 .form-field input:focus, .form-field textarea:focus, .form-field select:focus {
-    border: 1px solid light-dark(#b7b7b7,#555); color: light-dark(#000,#fff);
-    outline: 3px solid light-dark(rgba(0,0,0,0.08),rgba(255,255,255,0.04));
+    outline: var(--c-field-border-hover);
 }
 
 .form-field.required label:after {
-    color: #f33;
+    color: var(--c-danger-alt-text); content: "*"; margin-left: 0.1em;
+}
+
+.form-field span.field-error {
+    color: var(--c-danger-alt-text); font-size: 0.9em;
 }

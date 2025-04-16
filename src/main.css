@@ -1,8 +1,11 @@
 
 @import url("root.css");
 @import url("common.css");
+
 @import url("text.css");
 @import url("dialog.css");
 @import url("btn-strip.css");
 @import url("btn.css");
 @import url("form.css");
+
+@import url("size.css");

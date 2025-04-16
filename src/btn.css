@@ -10,139 +10,131 @@
     transition: all var(--duration) ease;
 }
 
-.btn.small {
-    padding: 0.2rem 0.5rem; font-size: 0.9rem;
-}
-
-.btn.tiny {
-    padding: 0.0rem 0.4rem; font-size: 0.9rem;
-}
-
 /* Theme */
 .btn {
-    background: var(--btn-bg);
-    color: var(--btn-text);
-    border: var(--btn-border);
+    background: var(--c-bg);
+    color: var(--c-text);
+    border: var(--c-border);
 }
 .btn:hover {
-    background: var(--btn-bg-hover);
-    color: var(--btn-text-hover);
-    border: var(--btn-border-hover);
+    background: var(--c-bg-hover);
+    color: var(--c-text-hover);
+    border: var(--c-border-hover);
 }
 
 .btn.outline {
-    background: var(--btn-alt-bg);
-    color: var(--btn-alt-text);
-    border: var(--btn-alt-border);
+    background: var(--c-alt-bg);
+    color: var(--c-alt-text);
+    border: var(--c-alt-border);
 }
 .btn.outline:hover {
-    background: var(--btn-alt-bg-hover);
-    color: var(--btn-alt-text-hover);
-    border: var(--btn-alt-border-hover);
+    background: var(--c-alt-bg-hover);
+    color: var(--c-alt-text-hover);
+    border: var(--c-alt-border-hover);
 }
 
 /* ** */
 .btn.primary {
-    --btn-bg: var(--btn-primary-bg);
-    --btn-text: var(--btn-primary-text);
-    --btn-border: var(--btn-primary-border);
-    --btn-bg-hover: var(--btn-primary-bg-hover);
-    --btn-text-hover: var(--btn-primary-text-hover);
-    --btn-border-hover: var(--btn-primary-border-hover);
-    --btn-alt-bg: var(--btn-primary-alt-bg);
-    --btn-alt-text: var(--btn-primary-alt-text);
-    --btn-alt-border: var(--btn-primary-alt-border);
-    --btn-alt-bg-hover: var(--btn-primary-alt-bg-hover);
-    --btn-alt-text-hover: var(--btn-primary-alt-text-hover);
-    --btn-alt-border-hover: var(--btn-primary-alt-border-hover);
+    --c-bg: var(--c-primary-bg);
+    --c-text: var(--c-primary-text);
+    --c-border: var(--c-primary-border);
+    --c-bg-hover: var(--c-primary-bg-hover);
+    --c-text-hover: var(--c-primary-text-hover);
+    --c-border-hover: var(--c-primary-border-hover);
+    --c-alt-bg: var(--c-primary-alt-bg);
+    --c-alt-text: var(--c-primary-alt-text);
+    --c-alt-border: var(--c-primary-alt-border);
+    --c-alt-bg-hover: var(--c-primary-alt-bg-hover);
+    --c-alt-text-hover: var(--c-primary-alt-text-hover);
+    --c-alt-border-hover: var(--c-primary-alt-border-hover);
 }
 
 .btn.secondary {
-    --btn-bg: var(--btn-secondary-bg);
-    --btn-text: var(--btn-secondary-text);
-    --btn-border: var(--btn-secondary-border);
-    --btn-bg-hover: var(--btn-secondary-bg-hover);
-    --btn-text-hover: var(--btn-secondary-text-hover);
-    --btn-border-hover: var(--btn-secondary-border-hover);
-    --btn-alt-bg: var(--btn-secondary-alt-bg);
-    --btn-alt-text: var(--btn-secondary-alt-text);
-    --btn-alt-border: var(--btn-secondary-alt-border);
-    --btn-alt-bg-hover: var(--btn-secondary-alt-bg-hover);
-    --btn-alt-text-hover: var(--btn-secondary-alt-text-hover);
-    --btn-alt-border-hover: var(--btn-secondary-alt-border-hover);
+    --c-bg: var(--c-secondary-bg);
+    --c-text: var(--c-secondary-text);
+    --c-border: var(--c-secondary-border);
+    --c-bg-hover: var(--c-secondary-bg-hover);
+    --c-text-hover: var(--c-secondary-text-hover);
+    --c-border-hover: var(--c-secondary-border-hover);
+    --c-alt-bg: var(--c-secondary-alt-bg);
+    --c-alt-text: var(--c-secondary-alt-text);
+    --c-alt-border: var(--c-secondary-alt-border);
+    --c-alt-bg-hover: var(--c-secondary-alt-bg-hover);
+    --c-alt-text-hover: var(--c-secondary-alt-text-hover);
+    --c-alt-border-hover: var(--c-secondary-alt-border-hover);
 }
 
 .btn.success {
-    --btn-bg: var(--btn-success-bg);
-    --btn-text: var(--btn-success-text);
-    --btn-border: var(--btn-success-border);
-    --btn-bg-hover: var(--btn-success-bg-hover);
-    --btn-text-hover: var(--btn-success-text-hover);
-    --btn-border-hover: var(--btn-success-border-hover);
-    --btn-alt-bg: var(--btn-success-alt-bg);
-    --btn-alt-text: var(--btn-success-alt-text);
-    --btn-alt-border: var(--btn-success-alt-border);
-    --btn-alt-bg-hover: var(--btn-success-alt-bg-hover);
-    --btn-alt-text-hover: var(--btn-success-alt-text-hover);
-    --btn-alt-border-hover: var(--btn-success-alt-border-hover);
+    --c-bg: var(--c-success-bg);
+    --c-text: var(--c-success-text);
+    --c-border: var(--c-success-border);
+    --c-bg-hover: var(--c-success-bg-hover);
+    --c-text-hover: var(--c-success-text-hover);
+    --c-border-hover: var(--c-success-border-hover);
+    --c-alt-bg: var(--c-success-alt-bg);
+    --c-alt-text: var(--c-success-alt-text);
+    --c-alt-border: var(--c-success-alt-border);
+    --c-alt-bg-hover: var(--c-success-alt-bg-hover);
+    --c-alt-text-hover: var(--c-success-alt-text-hover);
+    --c-alt-border-hover: var(--c-success-alt-border-hover);
 }
 
 .btn.danger {
-    --btn-bg: var(--btn-danger-bg);
-    --btn-text: var(--btn-danger-text);
-    --btn-border: var(--btn-danger-border);
-    --btn-bg-hover: var(--btn-danger-bg-hover);
-    --btn-text-hover: var(--btn-danger-text-hover);
-    --btn-border-hover: var(--btn-danger-border-hover);
-    --btn-alt-bg: var(--btn-danger-alt-bg);
-    --btn-alt-text: var(--btn-danger-alt-text);
-    --btn-alt-border: var(--btn-danger-alt-border);
-    --btn-alt-bg-hover: var(--btn-danger-alt-bg-hover);
-    --btn-alt-text-hover: var(--btn-danger-alt-text-hover);
-    --btn-alt-border-hover: var(--btn-danger-alt-border-hover);
+    --c-bg: var(--c-danger-bg);
+    --c-text: var(--c-danger-text);
+    --c-border: var(--c-danger-border);
+    --c-bg-hover: var(--c-danger-bg-hover);
+    --c-text-hover: var(--c-danger-text-hover);
+    --c-border-hover: var(--c-danger-border-hover);
+    --c-alt-bg: var(--c-danger-alt-bg);
+    --c-alt-text: var(--c-danger-alt-text);
+    --c-alt-border: var(--c-danger-alt-border);
+    --c-alt-bg-hover: var(--c-danger-alt-bg-hover);
+    --c-alt-text-hover: var(--c-danger-alt-text-hover);
+    --c-alt-border-hover: var(--c-danger-alt-border-hover);
 }
 
 .btn.warn {
-    --btn-bg: var(--btn-warn-bg);
-    --btn-text: var(--btn-warn-text);
-    --btn-border: var(--btn-warn-border);
-    --btn-bg-hover: var(--btn-warn-bg-hover);
-    --btn-text-hover: var(--btn-warn-text-hover);
-    --btn-border-hover: var(--btn-warn-border-hover);
-    --btn-alt-bg: var(--btn-warn-alt-bg);
-    --btn-alt-text: var(--btn-warn-alt-text);
-    --btn-alt-border: var(--btn-warn-alt-border);
-    --btn-alt-bg-hover: var(--btn-warn-alt-bg-hover);
-    --btn-alt-text-hover: var(--btn-warn-alt-text-hover);
-    --btn-alt-border-hover: var(--btn-warn-alt-border-hover);
+    --c-bg: var(--c-warn-bg);
+    --c-text: var(--c-warn-text);
+    --c-border: var(--c-warn-border);
+    --c-bg-hover: var(--c-warn-bg-hover);
+    --c-text-hover: var(--c-warn-text-hover);
+    --c-border-hover: var(--c-warn-border-hover);
+    --c-alt-bg: var(--c-warn-alt-bg);
+    --c-alt-text: var(--c-warn-alt-text);
+    --c-alt-border: var(--c-warn-alt-border);
+    --c-alt-bg-hover: var(--c-warn-alt-bg-hover);
+    --c-alt-text-hover: var(--c-warn-alt-text-hover);
+    --c-alt-border-hover: var(--c-warn-alt-border-hover);
 }
 
 .btn.info {
-    --btn-bg: var(--btn-info-bg);
-    --btn-text: var(--btn-info-text);
-    --btn-border: var(--btn-info-border);
-    --btn-bg-hover: var(--btn-info-bg-hover);
-    --btn-text-hover: var(--btn-info-text-hover);
-    --btn-border-hover: var(--btn-info-border-hover);
-    --btn-alt-bg: var(--btn-info-alt-bg);
-    --btn-alt-text: var(--btn-info-alt-text);
-    --btn-alt-border: var(--btn-info-alt-border);
-    --btn-alt-bg-hover: var(--btn-info-alt-bg-hover);
-    --btn-alt-text-hover: var(--btn-info-alt-text-hover);
-    --btn-alt-border-hover: var(--btn-info-alt-border-hover);
+    --c-bg: var(--c-info-bg);
+    --c-text: var(--c-info-text);
+    --c-border: var(--c-info-border);
+    --c-bg-hover: var(--c-info-bg-hover);
+    --c-text-hover: var(--c-info-text-hover);
+    --c-border-hover: var(--c-info-border-hover);
+    --c-alt-bg: var(--c-info-alt-bg);
+    --c-alt-text: var(--c-info-alt-text);
+    --c-alt-border: var(--c-info-alt-border);
+    --c-alt-bg-hover: var(--c-info-alt-bg-hover);
+    --c-alt-text-hover: var(--c-info-alt-text-hover);
+    --c-alt-border-hover: var(--c-info-alt-border-hover);
 }
 
 .btn.inv {
-    --btn-bg: var(--btn-inv-bg);
-    --btn-text: var(--btn-inv-text);
-    --btn-border: var(--btn-inv-border);
-    --btn-bg-hover: var(--btn-inv-bg-hover);
-    --btn-text-hover: var(--btn-inv-text-hover);
-    --btn-border-hover: var(--btn-inv-border-hover);
-    --btn-alt-bg: var(--btn-inv-alt-bg);
-    --btn-alt-text: var(--btn-inv-alt-text);
-    --btn-alt-border: var(--btn-inv-alt-border);
-    --btn-alt-bg-hover: var(--btn-inv-alt-bg-hover);
-    --btn-alt-text-hover: var(--btn-inv-alt-text-hover);
-    --btn-alt-border-hover: var(--btn-inv-alt-border-hover);
+    --c-bg: var(--c-inv-bg);
+    --c-text: var(--c-inv-text);
+    --c-border: var(--c-inv-border);
+    --c-bg-hover: var(--c-inv-bg-hover);
+    --c-text-hover: var(--c-inv-text-hover);
+    --c-border-hover: var(--c-inv-border-hover);
+    --c-alt-bg: var(--c-inv-alt-bg);
+    --c-alt-text: var(--c-inv-alt-text);
+    --c-alt-border: var(--c-inv-alt-border);
+    --c-alt-bg-hover: var(--c-inv-alt-bg-hover);
+    --c-alt-text-hover: var(--c-inv-alt-text-hover);
+    --c-alt-border-hover: var(--c-inv-alt-border-hover);
 }
