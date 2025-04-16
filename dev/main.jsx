@@ -60,10 +60,10 @@ const App = () =>
         <button class="btn info small outline">btn info small outline</button>
     </div>
     <div class="mb-1">
-        <button class="btn dark">btn dark</button>
-        <button class="btn dark outline">btn dark outline</button>
-        <button class="btn dark small">btn dark small</button>
-        <button class="btn dark small outline">btn dark small outline</button>
+        <button class="btn inv">btn inv</button>
+        <button class="btn inv outline">btn inv outline</button>
+        <button class="btn inv small">btn inv small</button>
+        <button class="btn inv small outline">btn inv small outline</button>
     </div>
 
     <hr/>

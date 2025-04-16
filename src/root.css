@@ -1,32 +1,123 @@
 :root {
 
     /***/
-    --btn-bg: light-dark(#e7e7e7,#222222);
+    --btn-bg: light-dark(#e7e7e7,#333333);
     --btn-text: light-dark(#222222,#e7e7e7);
     --btn-border: none;
-    --btn-bg-hover: light-dark(#cccccc,#000000);
+    --btn-bg-hover: light-dark(#cccccc,#444444);
     --btn-text-hover: light-dark(#000000,#e7e7e7);
     --btn-border-hover: none;
 
     --btn-alt-bg: transparent;
     --btn-alt-text: light-dark(#222222,#e7e7e7);
-    --btn-alt-border: 1px solid light-dark(#999999,#444444);
-    --btn-alt-bg-hover: light-dark(#cccccc,#000000);
-    --btn-alt-text-hover: light-dark(#000000,#ffffff);
+    --btn-alt-border: 1px solid light-dark(#999999,#555555);
+    --btn-alt-bg-hover: light-dark(#cccccc,#444444);
+    --btn-alt-text-hover: light-dark(#000000,#e7e7e7);
     --btn-alt-border-hover: 1px solid transparent;
 
     /***/
-    --btn-primary-bg: light-dark(#6c28be,#6c28be);
+    --btn-primary-bg: light-dark(#4e18de,#4e18de);
     --btn-primary-text: light-dark(#ffffff,#ffffff);
     --btn-primary-border: none;
-    --btn-primary-bg-hover: light-dark(#3c008e,#4c089e);
+    --btn-primary-bg-hover: light-dark(#2e08be,#2e08be);
     --btn-primary-text-hover: light-dark(#ffffff,#ffffff);
     --btn-primary-border-hover: none;
 
     --btn-primary-alt-bg: transparent;
-    --btn-primary-alt-text: light-dark(#6c28be,#b980ff);
-    --btn-primary-alt-border: 1px solid light-dark(#6c28be,#6c28be);
-    --btn-primary-alt-bg-hover: light-dark(#6c28be,#4c089e);
+    --btn-primary-alt-text: light-dark(#4e18de,#7e48fe);
+    --btn-primary-alt-border: 1px solid light-dark(#4e18de,#7e48fe);
+    --btn-primary-alt-bg-hover: light-dark(#2e08be,#4e08de);
     --btn-primary-alt-text-hover: light-dark(#ffffff,#ffffff);
-    --btn-primary-alt-border-hover: 1px solid light-dark(#6c28be,#6c28be);
+    --btn-primary-alt-border-hover: 1px solid light-dark(#4e18de,#4e18de);
+
+    /***/
+    --btn-secondary-bg: light-dark(#be28ac,#be28ac);
+    --btn-secondary-text: light-dark(#ffffff,#ffffff);
+    --btn-secondary-border: none;
+    --btn-secondary-bg-hover: light-dark(#9e088c,#9e088c);
+    --btn-secondary-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-secondary-border-hover: none;
+
+    --btn-secondary-alt-bg: transparent;
+    --btn-secondary-alt-text: light-dark(#be28ac,#f665e5);
+    --btn-secondary-alt-border: 1px solid light-dark(#be28ac,#e344d0);
+    --btn-secondary-alt-bg-hover: light-dark(#9e088c,#9e088c);
+    --btn-secondary-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-secondary-alt-border-hover: 1px solid light-dark(#be28ac,#be28ac);
+
+    /***/
+    --btn-success-bg: light-dark(#16b72e,#16b72e);
+    --btn-success-text: light-dark(#ffffff,#ffffff);
+    --btn-success-border: none;
+    --btn-success-bg-hover: light-dark(#06a71e,#06a71e);
+    --btn-success-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-success-border-hover: none;
+
+    --btn-success-alt-bg: transparent;
+    --btn-success-alt-text: light-dark(#16b72e,#6ebe38);
+    --btn-success-alt-border: 1px solid light-dark(#16b72e,#16b72e);
+    --btn-success-alt-bg-hover: light-dark(#06a71e,#16b72e);
+    --btn-success-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-success-alt-border-hover: 1px solid light-dark(#16b72e,#16b72e);
+
+    /***/
+    --btn-danger-bg: light-dark(#be1818,#be1818);
+    --btn-danger-text: light-dark(#ffffff,#ffffff);
+    --btn-danger-border: none;
+    --btn-danger-bg-hover: light-dark(#ae0808,#ae0808);
+    --btn-danger-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-danger-border-hover: none;
+
+    --btn-danger-alt-bg: transparent;
+    --btn-danger-alt-text: light-dark(#be1818,#f65555);
+    --btn-danger-alt-border: 1px solid light-dark(#be1818,#e33434);
+    --btn-danger-alt-bg-hover: light-dark(#ae0808,#ae0808);
+    --btn-danger-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-danger-alt-border-hover: 1px solid light-dark(#be1818,#be1818);
+
+    /***/
+    --btn-warn-bg: light-dark(#de8e18,#de8e18);
+    --btn-warn-text: light-dark(#ffffff,#ffffff);
+    --btn-warn-border: none;
+    --btn-warn-bg-hover: light-dark(#be6e08,#be6e08);
+    --btn-warn-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-warn-border-hover: none;
+
+    --btn-warn-alt-bg: transparent;
+    --btn-warn-alt-text: light-dark(#de8e18,#de8e18);
+    --btn-warn-alt-border: 1px solid light-dark(#de8e18,#de8e18);
+    --btn-warn-alt-bg-hover: light-dark(#be6e08,#be6e08);
+    --btn-warn-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-warn-alt-border-hover: 1px solid light-dark(#de8e18,#de8e18);
+
+    /***/
+    --btn-info-bg: light-dark(#2c88fe,#2c88fe);
+    --btn-info-text: light-dark(#ffffff,#ffffff);
+    --btn-info-border: none;
+    --btn-info-bg-hover: light-dark(#0c68de,#0c68de);
+    --btn-info-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-info-border-hover: none;
+
+    --btn-info-alt-bg: transparent;
+    --btn-info-alt-text: light-dark(#2c88fe,#2c88fe);
+    --btn-info-alt-border: 1px solid light-dark(#2c88fe,#2c88fe);
+    --btn-info-alt-bg-hover: light-dark(#0c68de,#0c68de);
+    --btn-info-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-info-alt-border-hover: 1px solid light-dark(#2c88fe,#2c88fe);
+
+    /***/
+    --btn-inv-bg: light-dark(#444444,#777777);
+    --btn-inv-text: light-dark(#ffffff,#ffffff);
+    --btn-inv-border: none;
+    --btn-inv-bg-hover: light-dark(#333333,#555555);
+    --btn-inv-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-inv-border-hover: none;
+
+    --btn-inv-alt-bg: transparent;
+    --btn-inv-alt-text: light-dark(#444444,#aaaaaa);
+    --btn-inv-alt-border: 1px solid light-dark(#444444,#777777);
+    --btn-inv-alt-bg-hover: light-dark(#333333,#555555);
+    --btn-inv-alt-text-hover: light-dark(#ffffff,#ffffff);
+    --btn-inv-alt-border-hover: 1px solid light-dark(#444444,#444444);
+
 }

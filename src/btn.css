@@ -57,122 +57,92 @@
     --btn-alt-border-hover: var(--btn-primary-alt-border-hover);
 }
 
-/* ** */
 .btn.secondary {
-    background: light-dark(#be28ac,#be28ac);
-    color: light-dark(#fff,#fff);
-}
-.btn.secondary:hover {
-    background: light-dark(#7b1a70,#7b1a70);
-}
-
-.btn.secondary.outline {
-    background: transparent;
-    color: light-dark(#be28ac,#f665e5);
-    border: 1px solid light-dark(#be28ac,#e344d0);
-}
-.btn.secondary.outline:hover {
-    background: light-dark(#be28ac,#be28ac);
-    color: light-dark(#fff,#fff);
-    border: 1px solid light-dark(#be28ac,#be28ac);
+    --btn-bg: var(--btn-secondary-bg);
+    --btn-text: var(--btn-secondary-text);
+    --btn-border: var(--btn-secondary-border);
+    --btn-bg-hover: var(--btn-secondary-bg-hover);
+    --btn-text-hover: var(--btn-secondary-text-hover);
+    --btn-border-hover: var(--btn-secondary-border-hover);
+    --btn-alt-bg: var(--btn-secondary-alt-bg);
+    --btn-alt-text: var(--btn-secondary-alt-text);
+    --btn-alt-border: var(--btn-secondary-alt-border);
+    --btn-alt-bg-hover: var(--btn-secondary-alt-bg-hover);
+    --btn-alt-text-hover: var(--btn-secondary-alt-text-hover);
+    --btn-alt-border-hover: var(--btn-secondary-alt-border-hover);
 }
 
-/* ** */
 .btn.success {
-    background: light-dark(#16b72e,#16b72e);
-    color: light-dark(#fff,#fff);
-}
-.btn.success:hover {
-    background: light-dark(#066d15,#066d15);
-}
-
-.btn.success.outline {
-    background: transparent;
-    color: light-dark(#108c23,#32c748);
-    border: 1px solid light-dark(#108c23,#32c748);
-}
-.btn.success.outline:hover {
-    background: light-dark(#16b72e,#16b72e);
-    color: light-dark(#fff,#fff);
-    border: 1px solid light-dark(#16b72e,#16b72e);
+    --btn-bg: var(--btn-success-bg);
+    --btn-text: var(--btn-success-text);
+    --btn-border: var(--btn-success-border);
+    --btn-bg-hover: var(--btn-success-bg-hover);
+    --btn-text-hover: var(--btn-success-text-hover);
+    --btn-border-hover: var(--btn-success-border-hover);
+    --btn-alt-bg: var(--btn-success-alt-bg);
+    --btn-alt-text: var(--btn-success-alt-text);
+    --btn-alt-border: var(--btn-success-alt-border);
+    --btn-alt-bg-hover: var(--btn-success-alt-bg-hover);
+    --btn-alt-text-hover: var(--btn-success-alt-text-hover);
+    --btn-alt-border-hover: var(--btn-success-alt-border-hover);
 }
 
-/* ** */
 .btn.danger {
-    background: light-dark(#be2830,#93132f);
-    color: light-dark(#fff,#fff);
-}
-.btn.danger:hover {
-    background: light-dark(#93132f,#620a1d);
-}
-
-.btn.danger.outline {
-    background: transparent;
-    color: light-dark(#be2830,#f53f66);
-    border: 1px solid light-dark(#be2830,#f53f66);
-}
-.btn.danger.outline:hover {
-    background: light-dark(#be2830,#93132f);
-    color: light-dark(#fff,#fff);
-    border: 1px solid light-dark(#be2830,#93132f);
+    --btn-bg: var(--btn-danger-bg);
+    --btn-text: var(--btn-danger-text);
+    --btn-border: var(--btn-danger-border);
+    --btn-bg-hover: var(--btn-danger-bg-hover);
+    --btn-text-hover: var(--btn-danger-text-hover);
+    --btn-border-hover: var(--btn-danger-border-hover);
+    --btn-alt-bg: var(--btn-danger-alt-bg);
+    --btn-alt-text: var(--btn-danger-alt-text);
+    --btn-alt-border: var(--btn-danger-alt-border);
+    --btn-alt-bg-hover: var(--btn-danger-alt-bg-hover);
+    --btn-alt-text-hover: var(--btn-danger-alt-text-hover);
+    --btn-alt-border-hover: var(--btn-danger-alt-border-hover);
 }
 
-/* ** */
 .btn.warn {
-    background: light-dark(#cc4e20,#cc4e20);
-    color: light-dark(#fff,#fff);
-}
-.btn.warn:hover {
-    background: light-dark(#8c2e0c,#8f3312);
-}
-
-.btn.warn.outline {
-    background: transparent;
-    color: light-dark(#ce7714,#f56b39);
-    border: 1px solid light-dark(#ce7714,#cc4e20);
-}
-.btn.warn.outline:hover {
-    background: light-dark(#cc4e20,#cc4e20);
-    color: light-dark(#fff,#fff);
-    border: 1px solid light-dark(#cc4e20,#cc4e20);
+    --btn-bg: var(--btn-warn-bg);
+    --btn-text: var(--btn-warn-text);
+    --btn-border: var(--btn-warn-border);
+    --btn-bg-hover: var(--btn-warn-bg-hover);
+    --btn-text-hover: var(--btn-warn-text-hover);
+    --btn-border-hover: var(--btn-warn-border-hover);
+    --btn-alt-bg: var(--btn-warn-alt-bg);
+    --btn-alt-text: var(--btn-warn-alt-text);
+    --btn-alt-border: var(--btn-warn-alt-border);
+    --btn-alt-bg-hover: var(--btn-warn-alt-bg-hover);
+    --btn-alt-text-hover: var(--btn-warn-alt-text-hover);
+    --btn-alt-border-hover: var(--btn-warn-alt-border-hover);
 }
 
-/* ** */
 .btn.info {
-    background: light-dark(#16caca,#13adad);
-    color: light-dark(#fff,#fff);
-}
-.btn.info:hover {
-    background: light-dark(#048888,#048888);
-}
-
-.btn.info.outline {
-    background: transparent;
-    color: light-dark(#0f8b8b,#16caca);
-    border: 1px solid light-dark(#109191,#16caca);
-}
-.btn.info.outline:hover {
-    background: light-dark(#16caca,#13adad);
-    color: light-dark(#fff,#fff);
-    border: 1px solid light-dark(#16caca,#13adad);
+    --btn-bg: var(--btn-info-bg);
+    --btn-text: var(--btn-info-text);
+    --btn-border: var(--btn-info-border);
+    --btn-bg-hover: var(--btn-info-bg-hover);
+    --btn-text-hover: var(--btn-info-text-hover);
+    --btn-border-hover: var(--btn-info-border-hover);
+    --btn-alt-bg: var(--btn-info-alt-bg);
+    --btn-alt-text: var(--btn-info-alt-text);
+    --btn-alt-border: var(--btn-info-alt-border);
+    --btn-alt-bg-hover: var(--btn-info-alt-bg-hover);
+    --btn-alt-text-hover: var(--btn-info-alt-text-hover);
+    --btn-alt-border-hover: var(--btn-info-alt-border-hover);
 }
 
-/* ** */
-.btn.dark {
-    background: light-dark(#333,#e7e7e7);
-    color: light-dark(#fff,#000);
-}
-.btn.dark:hover {
-    background: light-dark(#111,#fff);
-}
-
-.btn.dark.outline {
-    background: transparent;
-    color: light-dark(#000,#eee);
-    border: 1px solid light-dark(#333,#ddd);
-}
-.btn.dark.outline:hover {
-    background: light-dark(#333,#e7e7e7);
-    color: light-dark(#fff,#000);
-    border: 1px solid light-dark(#333,#e7e7e7);
+.btn.inv {
+    --btn-bg: var(--btn-inv-bg);
+    --btn-text: var(--btn-inv-text);
+    --btn-border: var(--btn-inv-border);
+    --btn-bg-hover: var(--btn-inv-bg-hover);
+    --btn-text-hover: var(--btn-inv-text-hover);
+    --btn-border-hover: var(--btn-inv-border-hover);
+    --btn-alt-bg: var(--btn-inv-alt-bg);
+    --btn-alt-text: var(--btn-inv-alt-text);
+    --btn-alt-border: var(--btn-inv-alt-border);
+    --btn-alt-bg-hover: var(--btn-inv-alt-bg-hover);
+    --btn-alt-text-hover: var(--btn-inv-alt-text-hover);
+    --btn-alt-border-hover: var(--btn-inv-alt-border-hover);
 }
