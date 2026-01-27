@@ -1,0 +1,119 @@
+commit f2e949c0f685a4b2883756b387afa4601614a071
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Mon Jan 26 23:54:04 2026 -0600
+
+    Smaller adjustments to font size and dialog style
+
+commit abfb83676b6420023da9f811238da9279adffd58
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Sun Jul 27 12:35:51 2025 -0600
+
+    Draft version
+
+commit b2b93485f37840ca4aaa9ff376d21f25e5639954
+Author: Jonathan Palencia <ciachn@gmail.com>
+Date:   Wed Apr 16 01:29:16 2025 -0600
+
+    Completed form field classes
+
+commit 7ef5b9e53da23302b9a21cd11efec2b68eb3c8f4
+Author: Jonathan Palencia <ciachn@gmail.com>
+Date:   Wed Apr 16 00:21:45 2025 -0600
+
+    Completed btn classes
+
+commit f21de16d6e68f0afd74a0c6bcf1a1284af02fe9c
+Author: Jonathan Palencia <ciachn@gmail.com>
+Date:   Sun Apr 13 00:14:43 2025 -0600
+
+    Draft
+
+commit 84b074c6f5fef1117db59562350e6fed1b5bc24d
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Wed Apr 9 16:32:44 2025 -0600
+
+    Progress update
+
+commit 030425c7c054519e6b1302627447b80a42ee5842
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Tue Jan 28 02:46:49 2025 -0600
+
+    Bumped version
+
+commit 5813a68a07847633a03fa959db4c1857e6adf4c1
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Tue Jan 28 02:43:15 2025 -0600
+
+    Draft version
+
+commit 50d985490d51b51c982b75f01ee0e58007e07c04
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Sat Dec 21 22:25:41 2024 -0600
+
+    Added .dialog.middle class
+
+commit 162f63770ac5aa8dd77480a1dfb44e4310085b1e
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Sat Dec 21 21:21:17 2024 -0600
+
+    WiP
+
+commit 410243664302745b6a09e59c73819ce3bb39464f
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Fri Dec 20 05:13:56 2024 -0600
+
+    WIP
+
+commit bba8a2ebe6bfa62d1f48e4d1b65879a6ad46a501
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Sun Dec 15 19:13:15 2024 -0600
+
+    Bumped up version
+
+commit a57234b92ebda599afc5eb42c1c5e6985d0431c0
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Sun Dec 15 19:13:01 2024 -0600
+
+    Recompiled with minimum dependencies
+
+commit 223bd0eef75e9ca67084e16de02e5fcb2131f804
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Sun Dec 15 19:08:19 2024 -0600
+
+    Recompiled
+
+commit 69160acd116a61b36bd1bfad6f6e6ea1119a69bd
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Sun Dec 15 19:07:15 2024 -0600
+
+    Renamed project
+
+commit 55c1ee60df559dc29f6f573d8409e8d5f722cf24
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Sun Dec 15 19:05:11 2024 -0600
+
+    Renamed project
+
+commit 85b832f2f8b325ed7ddbb14c0d7eec5afe016020
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Sun Dec 15 19:01:16 2024 -0600
+
+    WIP
+
+commit ddea3eddf2fe7ac2fc2baf83422969aaf1e2010e
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Mon Dec 9 06:45:28 2024 -0600
+
+    Added form elements
+
+commit 8ec029cea6cf9299dd1db52e1dca42687b200424
+Author: Jonathan Palencia <strikeone88@rsthn.com>
+Date:   Sun Dec 8 20:38:44 2024 -0600
+
+    Backup
+
+commit 53bfc934f033232bcb13e525cf8f3284d6ba719a
+Author: RedStar Technologies <40846185+rsthn@users.noreply.github.com>
+Date:   Sun Dec 8 20:37:30 2024 -0600
+
+    Initial commit

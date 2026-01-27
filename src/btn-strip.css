@@ -1,3 +1,10 @@
+/*
+    <div class="btn-strip">
+        <span class="btn outline danger">Yes</span>
+        <span class="btn outline success">No</span>
+    </div>
+*/
+
 /* Structure */
 .btn-strip {
     display: flex; gap: 0;
@@ -12,4 +19,10 @@
 .btn-strip {
     border-bottom: 1px solid light-dark(rgba(0,0,0,0.125),rgba(0,0,0,0.225));
     border-top: 1px solid light-dark(rgba(0,0,0,0.125),rgba(0,0,0,0.225));
+}
+
+/* Interactions */
+.dialog > .btn-strip {
+    border-bottom: none;
+    border-top: 1px solid light-dark(rgba(0,0,0,0.065),rgba(0,0,0,0.225));
 }

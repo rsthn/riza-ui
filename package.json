@@ -3,13 +3,13 @@
     "version": "1.0.4",
     "description": "riza-ui",
     "type": "module",
-    "global": "./dist/riza-ui.css",
+    "global": "./css/main.css",
     "scripts": {
         "test": "echo Ok",
         "changes": "rose :changes",
         "build-common": "rose src/compile.fn src/common.src.css src/common.css",
         "build:global": "parcel build --target global",
-        "build": "shx rm -rf .parcel-cache && shx rm -rf dist && shx mkdir dist && pnpm build-common && pnpm build:global",
+        "build": "shx rm -rf .parcel-cache && shx rm -rf css && shx mkdir css && pnpm build-common && pnpm build:global",
         "dev": "parcel serve dev/index.html"
     },
     "targets": {
@@ -32,16 +32,16 @@
     },
     "homepage": "https://github.com/rsthn/riza-ui#readme",
     "files": [
-        "dist/",
+        "css/",
         "LICENSE",
         "README.md"
     ],
     "devDependencies": {
-        "@babel/core": "^7.28.5",
+        "@babel/core": "^7.28.6",
         "babel-plugin-riza": "^2.1.2",
-        "parcel": "^2.16.1",
-        "riza": "^3.0.42",
+        "parcel": "^2.16.3",
+        "riza": "^3.0.43",
         "shx": "^0.3.4"
     },
-    "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
+    "packageManager": "pnpm@10.28.0+sha512.05df71d1421f21399e053fde567cea34d446fa02c76571441bfc1c7956e98e363088982d940465fd34480d4d90a0668bc12362f8aa88000a64e83d0b0e47be48"
 }

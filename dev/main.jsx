@@ -10,10 +10,11 @@ const App = () =>
     <button class="btn" onClick={ () => window.document.documentElement.classList.toggle('light-mode') }>Toggle Light/Dark</button>
     <button class="btn" onClick={ (ev) => ev.currentTarget.querySelectorParent('[data-root]').dialog.toggleVisibility() }>Toggle Dialog</button>
 
-    <div class="f-row">
+    <div class="f-row cols-2 g-4">
 
         <div className="s-6">
-            <p><b>Buttons</b></p>
+            <h4>Buttons</h4>
+
             <div class="mb-1">
                 <button class="btn">btn</button>
                 <button class="btn outline">btn outline</button>
@@ -67,10 +68,11 @@ const App = () =>
         </div>
 
         <div className="s-6">
-            <p><b>Form Elements</b></p>
-            <div class="f-row cols-2 g-4">
-                <div class="s-6">
-                    <div class="form-field">
+            <h4>Form Elements</h4>
+
+            <div class="f-row cols-2">
+                <div class="s-12">
+                    <div class="form-field required">
                         <label>Full Name</label>
                         <input type="text" />
                         <span class="field-error">Field error message.</span>
@@ -95,13 +97,16 @@ const App = () =>
 
     </div>
 
-    <r-panel class="dialog right">
-        <div class="title text-center py-3 fs-1 fw-600">
+    <r-panel class="dialog right is-inactive">
+        <div class="title">
             <b>Form Example</b>
+            <span>
+                <span>&times;</span>
+            </span>
         </div>
 
-        <div class="content px-4 pb-3 fs-2d" style:width="350px">
-            <div class="form-field">
+        <div class="content" style:width="250px">
+            <div class="form-field required">
                 <label>Full Name</label>
                 <input type="text" />
                 <span class="field-error">Field error message.</span>
@@ -121,19 +126,18 @@ const App = () =>
             </div>
         </div>
     </r-panel>
-    
-    <r-panel class="dialog center is-inactive" data-ref="dialog">
-        <div class="title text-center py-3 fs-1 fw-600">
+
+    <r-panel class="dialog is-inactive center" data-ref="dialog">
+        <div class="title">
             <b>Confirmation</b>
         </div>
 
-        <div class="content px-4 pb-3 fs-2d text-center">
+        <div class="content">
             Seg egestas ipsum non pretium efficitur.
             <br/>
             Fusce et luctus velit, ut vehicula nisl.
             <br/>
             Nulla et maximus augue.
-            <br/><br/>
         </div>
 
         <div class="btn-strip">
@@ -141,6 +145,7 @@ const App = () =>
             <span class="btn outline success" onClick={ (ev) => ev.currentTarget.querySelectorParent('[data-root]').dialog.hide() }>No</span>
         </div>
     </r-panel>
+    <div class="overlay"></div>
 
 </r-panel>
 ;

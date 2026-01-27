@@ -1,7 +1,12 @@
+/*
+    <span class="btn outline danger">My Button</span>
+*/
+
 /* Structure */
 .btn {
     display: inline-block; text-align: center; border: none; background: none;
-    padding: 0.4rem 1rem; border-radius: 0.25rem;
+    font-family: inherit; font-size: 1em; line-height: 1;
+    padding: 0.5em 1em; border-radius: 0.25em;
     transition: all var(--duration) ease;
 }
 

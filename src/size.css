@@ -1,9 +1,9 @@
 /* Common Sizes */
 
 .s-small {
-    padding: 0.2rem 0.5rem; font-size: 0.9rem;
+    padding: 0.35em 0.6em; font-size: 0.9em;
 }
 
 .s-tiny {
-    padding: 0.0rem 0.4rem; font-size: 0.9rem;
+    padding: 0.1em 0.4em; font-size: 0.9em;
 }

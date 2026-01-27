@@ -2,13 +2,14 @@
 
     /***/
     --c-field-bg: light-dark(#ffffff, #2b2a33);
-    --c-field-label: light-dark(#444444, #bbbbbb);
-    --c-field-text: light-dark(#000000, #eeeeee);
-    --c-field-border: 1px solid light-dark(#d0d0d0, #4b4a53);
-    --c-field-border-hover: 2px solid light-dark(#4e18de,#7e48fe);
+    --c-field-label: light-dark(#444444, #cccccc);
+    --c-field-text: light-dark(#000000, #f7f7f7);
+    --c-field-note: light-dark(#555, #888);
+    --c-field-border: 1px solid light-dark(#c7c7c7, #4b4a53);
+    --c-field-border-hover: 3px solid light-dark(#e3e3e3,#232323);
 
     /***/
-    --c-bg: light-dark(#e7e7e7,#333333);
+    --c-bg: light-dark(#e3e3e3,#333333);
     --c-text: light-dark(#222222,#e7e7e7);
     --c-border: none;
     --c-bg-hover: light-dark(#cccccc,#444444);
