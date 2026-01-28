@@ -16,12 +16,15 @@ const App = () =>
             <h4>Buttons</h4>
 
             <div class="mb-1">
+                <button class="btn s-large">btn s-large</button>
+                <button class="btn s-large outline">btn s-large outline</button>
                 <button class="btn">btn</button>
                 <button class="btn outline">btn outline</button>
                 <button class="btn s-small">btn s-small</button>
                 <button class="btn outline s-small">btn outline s-small</button>
                 <button class="btn s-tiny">btn tiny</button>
                 <button class="btn outline s-tiny">btn outline s-tiny</button>
+                <br/><br/>
             </div>
             <div class="mb-1">
                 <button class="btn primary">btn primary</button>

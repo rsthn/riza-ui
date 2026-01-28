@@ -10,13 +10,14 @@
 
 .form-field input, .form-field textarea, .form-field select {
     display: inline-block; width: 100%; box-sizing: border-box; font-family: inherit; font-weight: 400; font-size: 1em;
-    border-radius: 0.3em; padding: 0.5em 0.8em; outline: none; resize: none;
+    border-radius: 0.3em; padding: 0.5em 0.8em; outline: var(--c-field-outline); resize: none;
     background: var(--c-field-bg); border: var(--c-field-border); color: var(--c-field-text);
     box-shadow: 0 0.1em 0.5em -0.1em light-dark(rgba(0,0,0,0.15), rgba(0,0,0,0.5));
 }
 
 .form-field input:focus, .form-field textarea:focus, .form-field select:focus {
-    outline: var(--c-field-border-hover);
+    border: var(--c-field-border-hover);
+    outline: var(--c-field-outline-hover);
 }
 
 .form-field.required label:after {

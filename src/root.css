@@ -1,26 +1,31 @@
 :root {
 
     /***/
-    --c-field-bg: light-dark(#ffffff, #2b2a33);
+    --c-panel-bg: light-dark(#f3f4f6, #10151e);
+
+    /***/
+    --c-field-bg: light-dark(#ffffff, #2b2f36);
     --c-field-label: light-dark(#444444, #cccccc);
     --c-field-text: light-dark(#000000, #f7f7f7);
     --c-field-note: light-dark(#555, #888);
-    --c-field-border: 1px solid light-dark(#c7c7c7, #4b4a53);
-    --c-field-border-hover: 3px solid light-dark(#e3e3e3,#232323);
+    --c-field-border: 1px solid light-dark(#c7c7c7, #4b4f56);
+    --c-field-outline: none;
+    --c-field-border-hover: 1px solid light-dark(#a7a7a7, #6b6f76);
+    --c-field-outline-hover: 3px solid light-dark(#e3e3e3,#1b1f26);
 
     /***/
-    --c-bg: light-dark(#e3e3e3,#333333);
-    --c-text: light-dark(#222222,#e7e7e7);
+    --c-bg: light-dark(#d3d7ef,#33364c);
+    --c-text: light-dark(#22262f,#cccccc);
     --c-border: none;
-    --c-bg-hover: light-dark(#cccccc,#444444);
-    --c-text-hover: light-dark(#000000,#e7e7e7);
+    --c-bg-hover: light-dark(#c3c7df,#53667c);
+    --c-text-hover: light-dark(#000000,#fff);
     --c-border-hover: none;
 
     --c-alt-bg: transparent;
     --c-alt-text: light-dark(#222222,#e7e7e7);
-    --c-alt-border: 1px solid light-dark(#999999,#555555);
-    --c-alt-bg-hover: light-dark(#cccccc,#444444);
-    --c-alt-text-hover: light-dark(#000000,#e7e7e7);
+    --c-alt-border: 1px solid light-dark(#b3b7cf,#53667c);
+    --c-alt-bg-hover: light-dark(#c3c7df,#53667c);
+    --c-alt-text-hover: light-dark(#000000,#fff);
     --c-alt-border-hover: 1px solid transparent;
 
     /***/

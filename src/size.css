@@ -1,5 +1,9 @@
 /* Common Sizes */
 
+.s-large {
+    padding: 0.8em 1.2em; font-size: 1em;
+}
+
 .s-small {
     padding: 0.35em 0.6em; font-size: 0.9em;
 }
